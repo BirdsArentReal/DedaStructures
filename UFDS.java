@@ -14,7 +14,7 @@ public class UFDS {
         return find_root(idx1) == find_root(idx2);
     }
 
-    public int union(int idx1, int idx2) {
+    public void union(int idx1, int idx2) {
         int root1 = find_root(idx1);
         int root2 = find_root(idx2);
 
